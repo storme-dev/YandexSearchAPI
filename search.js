@@ -53,8 +53,4 @@ async function search(query, where = 'default')
     }
 }
 
-search('cheerio', 'images').then((result) => {
-    console.log(result)
-})
-
 module.exports = search
